@@ -52,3 +52,7 @@ def english_to_morse(
 
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write('\n'.join(morse_lines))
+
+
+if __name__ == '__main__':
+    english_to_morse()    
